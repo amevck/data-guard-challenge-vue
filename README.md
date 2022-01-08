@@ -1,6 +1,6 @@
 # DataGuard Challenge
 
-Live demo https://dataguard-challenge.herokuapp.com/
+Live demo https://dataguard-challenge-vue.herokuapp.com/
 https://mockapi.io/ is used as the mock server.
 https://element-plus.org/en-US/ and https://tailwindcss.com/ are used as the UI libraries for fast development.
 
@@ -23,4 +23,7 @@ You may also see any lint errors in the console.
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### `npm run start`
+
+Test the application locally or remote server, this command is serving build files on port 8080 using a http server (Express)
